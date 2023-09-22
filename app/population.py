@@ -1,7 +1,7 @@
 
 
 
-def population(country_dic):
+def population1(country_dic):
   pop={
     '2022':int(country_dic['2022 Population']) ,
     '2020':int(country_dic['2020 Population']) ,
