@@ -26,7 +26,7 @@ def torta( labels, value):
   flx, ax= plt.subplots()
   ax.pie(value, labels=labels)#>>>>torta
   ax.axis('equal')
-  plt.savefig('tor.png')
+  plt.savefig('charts_tor.png')
   plt.close()
   
   
